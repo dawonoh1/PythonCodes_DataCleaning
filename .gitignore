@@ -28,13 +28,6 @@
 *
 !.gitignore
 !README.md
-!ccrem_rerun_fixed_age.ipynb
-!osmnx_2019_redo.ipynb
-!park_accessibility.ipynb
-!park_accessibility_1.ipynb
-!park_accessibility2.ipynb
-!park_accessibility2-Copy1.ipynb
-!park_accessibility3.ipynb
-!raw_2019_redo.ipynb
-!raw_2019_redo_1.ipynb
-!raw_2019_redo_1-Copy1.ipynb
+!01_osmnx_walk_network.ipynb
+!02_park_accessibility_pipeline.ipynb
+!03_ccrem_rerun_fixed_age.ipynb
