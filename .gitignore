@@ -1,0 +1,40 @@
+# Data files
+*.csv
+*.rds
+*.RDS
+*.sav
+*.sas7bdat
+
+# R session files
+.Rhistory
+.RData
+.RDataTmp*
+.Rproj.user/
+.Ruserdata
+
+# Keys and secrets
+.Renviron
+.env
+*.key
+*.pem
+*.p12
+*secret*
+*credentials*
+*token*
+
+# Only the notebooks updated or used in 2026 are tracked;
+# everything else in this folder (older notebooks, Jupyter checkpoints,
+# caches, outputs) stays local
+*
+!.gitignore
+!README.md
+!ccrem_rerun_fixed_age.ipynb
+!osmnx_2019_redo.ipynb
+!park_accessibility.ipynb
+!park_accessibility_1.ipynb
+!park_accessibility2.ipynb
+!park_accessibility2-Copy1.ipynb
+!park_accessibility3.ipynb
+!raw_2019_redo.ipynb
+!raw_2019_redo_1.ipynb
+!raw_2019_redo_1-Copy1.ipynb
