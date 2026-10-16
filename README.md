@@ -20,7 +20,7 @@ The data are not included in this repository. Notebooks expect the files in a `d
 | `02_park_accessibility_pipeline.ipynb` | The full pipeline (details below) |
 | `03_ccrem_rerun_fixed_age.ipynb` | Re-runs the CCREM with two fixes: the open 70+ age band is coded as 75 instead of 35, and female × age terms are added and tested. It builds the long-format data, checks VIFs, and fits the model in R (`lme4`) through `rpy2`. |
 
-**Pipeline in `02_park_accessibility_pipeline.ipynb`**
+**Steps in `02_park_accessibility_pipeline.ipynb`**
 
 1. **Cleaning and merging.** Filters each monthly file to the 25 Seoul districts, stacks the 12 months, merges origin and park coordinates (Korean-encoded source files), and sums to annual origin–park visitor counts.
 2. **Travel cost.** Walking and driving travel times between each origin and park are combined into one **logsum equivalent cost**:
