@@ -1,6 +1,6 @@
-# Seoul Park Accessibility: Python Data Pipeline
+# Seoul Park Accessibility: Data Cleaning
 
-Python notebooks that turn a year of raw park-visitor flow data for Seoul into a modeling dataset for studying **who travels how far to which parks**. They clean and combine 12 monthly visitor files, compute walking and driving travel times on the OpenStreetMap network, combine the two modes into one logsum travel cost, attach park amenities, and estimate how amenities shape travel cost differently by sex and age.
+Python codes that turn a year of raw park-visitor flow data for Seoul into a modeling dataset for studying **who travels how far to which parks**. They clean and combine 12 monthly visitor files, compute walking and driving travel times on the OpenStreetMap network, combine the two modes into one logsum travel cost, attach park amenities, and estimate how amenities shape travel cost differently by sex and age.
 
 The final model is a cross-classified random-effects model (CCREM). It is finished in R Markdown in the companion repository **ParkAccessibility_GenderDifference**, which has the full results.
 
